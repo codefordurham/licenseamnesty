@@ -1,0 +1,1229 @@
+{
+  "version": "11.4",
+  "site": "https://textit.in",
+  "flows": [
+    {
+      "entry": "6b61d6df-4c09-4a5b-bec4-9c75f6d3255d",
+      "action_sets": [
+        {
+          "uuid": "6b61d6df-4c09-4a5b-bec4-9c75f6d3255d",
+          "x": 340,
+          "y": 20,
+          "destination": "d3f47a8d-5362-4af6-ac21-04c619c474b7",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "b29e42e1-86fa-46fe-b444-957b42a5dc11",
+              "msg": {
+                "base": "Welcome! You must answer the following questions to register for the Durham Driver License Restoration Program. Learn more at durhamiteam.org/dear",
+                "spa": "Welcome! You must answer the following questions to register for the Durham Driver License Restoration Program. Learn more at durhamiteam.org/dear"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "reply",
+              "uuid": "4304916b-28fa-468d-81c5-a22493c06740",
+              "msg": {
+                "base": "Text En for English or Es for Spanish",
+                "spa": "Text En for English or Es for Spanish"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "add_group",
+              "uuid": "d109871e-88cb-4d9e-a904-688fbc07f5c8",
+              "groups": [
+                {
+                  "uuid": "cb4b322d-e9f7-4b51-b6cc-d4fd94645e7d",
+                  "name": "Applicants"
+                }
+              ]
+            }
+          ],
+          "exit_uuid": "49655b65-fbad-4868-ab9b-ccb567ce84b8"
+        },
+        {
+          "uuid": "685d8267-5fa0-4a36-88a4-ab2fe8232d2d",
+          "x": 17,
+          "y": 603,
+          "destination": null,
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "d2f60bac-f0af-4dae-968b-8a2246a068db",
+              "msg": {
+                "base": "We\u2019re sorry. You\u2019re not eligible for the program at this time. Learn why and about\nother steps you can take at durhamiteam.org/dear",
+                "spa": "Lo sentimos. Por el momento no eres elegible. Para saber porque no calificas y que otros pasos tienes que tomar visita el sitio web durhamiteam.org/dear"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "1d9b98ad-b30a-4d9f-bd71-b2a8730e40ab"
+        },
+        {
+          "uuid": "0455d1fa-ddbd-499b-9db4-8c83824ea854",
+          "x": 308,
+          "y": 738,
+          "destination": "360d0896-280a-44ac-b25d-21fbbabc9563",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "76431acc-9265-400e-ac3c-37a478e1ab9e",
+              "msg": {
+                "base": "Was your traffic offense in Durham County? Enter Y for Yes or N for No.",
+                "spa": "\u00bfTu ofensa de tr\u00e1fico fue en el condado de Durham? Responde S para S\u00ed o N para No"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "18ed8d18-2a2f-4534-b288-af5f51b5387c"
+        },
+        {
+          "uuid": "65aefb61-e91d-4fd3-b993-a689e2636462",
+          "x": 33,
+          "y": 1012,
+          "destination": null,
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "0a1f05fd-851a-4a9c-93ad-489d187caaf3",
+              "msg": {
+                "base": "We\u2019re sorry. You\u2019re not eligible for the program at this time. Learn why and about\nother steps you can take at durhamiteam.org/dear",
+                "spa": "Lo sentimos. Por el momento no eres elegible. Para saber porque no calificas y que otros pasos tienes que tomar visita el sitio web durhamiteam.org/dear"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "4a451310-0103-4b5d-927d-23bf2c28fdfd"
+        },
+        {
+          "uuid": "3f202080-01d3-4c59-a363-2b06d3e95487",
+          "x": 340,
+          "y": 1076,
+          "destination": "8e0272ce-ef3b-4467-92eb-ebfdffd1042a",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "69121891-9dda-4dd1-aa7a-2f8cfd7df3da",
+              "msg": {
+                "base": "Was your traffic offense more than 12 months ago? Enter Y for Yes or N for No.",
+                "spa": "\u00bfTu ofensa de tr\u00e1fico fue hace m\u00e1s de 12 meses? Responde S para S\u00ed o N para No"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "3b5f7e8e-0fc4-4de1-ada6-992d774d6be2"
+        },
+        {
+          "uuid": "077aa21f-c10e-4b95-acdb-bf1a6d86f551",
+          "x": 51,
+          "y": 1304,
+          "destination": null,
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "802b1719-c69a-4e10-901a-dd393c3dcd66",
+              "msg": {
+                "base": "We\u2019re sorry. You\u2019re not eligible for the program at this time. Learn why and about\nother steps you can take at durhamiteam.org/dear",
+                "spa": "Lo sentimos. Por el momento no eres elegible. Para saber porque no calificas y que otros pasos tienes que tomar visita el sitio web durhamiteam.org/dear"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "98b3187c-6bff-4906-8f38-965ee391576e"
+        },
+        {
+          "uuid": "86234be6-214d-4930-b87e-9f79b881eab8",
+          "x": 348,
+          "y": 1398,
+          "destination": "89300779-3ccc-44da-832e-9e1c4625b98c",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "b32d4d13-28e8-4bc2-9954-905e71a12c1d",
+              "msg": {
+                "base": "What is your date of birth in MM/DD/YYYY format?",
+                "spa": "\u00bfCual es tu fecha de nacimiento en Mes/Dia/A\u00f1o? Por ejemplo 05/27/1986"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "a28e4f8f-ac65-4d59-89fd-30d36bb66fc6"
+        },
+        {
+          "uuid": "79f7baaf-b426-430a-b9d7-fa8388e6da36",
+          "x": 231,
+          "y": 1663,
+          "destination": "1aa47c89-5642-45e5-9527-3cc1246b2fbf",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "8baa8164-41a7-4dc9-9a39-7f8fccc972e7",
+              "msg": {
+                "base": "What is your full name? Please include your first, middle, and last name as it would appear on any court records.",
+                "spa": "\u00bfCual es tu nombre completo? Por favor incluye tu primer nombre, segundo nombre y apellido tal y como aparecen en los registros de la corte."
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "save",
+              "uuid": "06f827ec-7d9a-4259-be03-8688594b202e",
+              "label": "Dob",
+              "field": "dob",
+              "value": "@flow.dob"
+            }
+          ],
+          "exit_uuid": "8d40f9c1-30d1-4415-82ed-f95eed5d6bc2"
+        },
+        {
+          "uuid": "43a970f4-5617-4550-a090-e4720dc4d8a7",
+          "x": 195,
+          "y": 2055,
+          "destination": "a54334a1-254a-4e9b-b434-6ab3edf42533",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "e8d6e54e-25c5-49dd-a218-35ea6ab2893a",
+              "msg": {
+                "base": "If you know your North Carolina license number, reply with the number. Otherwise, reply N/A.",
+                "spa": "Si sabes tu n\u00famero de licencia de manejar del Norte de Carolina, responde con ese n\u00famero. Si no lo tienes, responde con N/A"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "save",
+              "uuid": "61e700d0-1cd7-41f7-afee-a33d9f3231fd",
+              "label": "Contact Name",
+              "field": "name",
+              "value": "@flow.name"
+            }
+          ],
+          "exit_uuid": "2d8fdf8d-17cc-46bf-bd18-1e787cd448ba"
+        },
+        {
+          "uuid": "a9ac5178-68ff-4538-aaad-30031d8f8fc5",
+          "x": 58,
+          "y": 2422,
+          "destination": "b95eae20-a483-4284-87f7-9e285f8fc9c7",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "f8a8385c-98f9-4b89-9c1a-c8ff266fb1f8",
+              "msg": {
+                "base": "Thank you! We will submit your application to the Durham District Attorney\u2019s office to review your driving record for possible dismissals.",
+                "spa": "!Gracias! Enviaremos tu aplicaci\u00f3n a las fiscal\u00edas de distrito de Durham para revisar si algunas infracciones de tr\u00e1fico se pueden remover de tu historial."
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "save",
+              "uuid": "b84e248c-5dca-4b14-9b9f-59604ced8457",
+              "label": "License Numer",
+              "field": "license_numer",
+              "value": "@license.number"
+            },
+            {
+              "type": "reply",
+              "uuid": "e0e4b89e-1c9d-49ac-a8c9-dc37a8ca933e",
+              "msg": {
+                "base": "It will take at least two months to review your application. If you have any upcoming court dates, you must attend them. Learn more at durhamiteam.org/dear",
+                "spa": "Se tomar\u00e1 m\u00ednimo 2 meses para completar tu aplicaci\u00f3n. Si tienes citas de corte tienes que presentarte. Para mas informacion visita durhamiteam.org/dear"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "add_group",
+              "uuid": "9ceb483a-7067-441b-a1d6-6fa374b69f9b",
+              "groups": [
+                {
+                  "uuid": "f1dff7ff-8048-4b49-9f9e-0395a393ae3d",
+                  "name": "Submitted"
+                }
+              ]
+            }
+          ],
+          "exit_uuid": "0595054c-470e-41d7-ba6b-2d7f016a76fd"
+        },
+        {
+          "uuid": "d593d30e-4426-4c4e-85f4-068fe784bdca",
+          "x": 308,
+          "y": 2419,
+          "destination": "da113944-c63b-4355-99e4-261d7e3dfac9",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "490392b5-9404-40f2-8a4c-812c98675c7c",
+              "msg": {
+                "base": "Thank you! We will submit your application to the Durham District Attorney\u2019s office to review your driving record for possible dismissals.",
+                "spa": "!Gracias! Enviaremos tu aplicaci\u00f3n a las fiscal\u00edas de distrito de Durham para revisar si algunas infracciones de tr\u00e1fico se pueden remover de tu historial."
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "save",
+              "uuid": "a6d613c9-d5c1-4a63-8571-f85913593e03",
+              "label": "License Numer",
+              "field": "license_numer",
+              "value": "@license.number"
+            },
+            {
+              "type": "reply",
+              "uuid": "6eda73ad-daaf-4be1-bb9a-e382dc4a2f34",
+              "msg": {
+                "base": "It will take at least two months to review your application. If you have any upcoming court dates, you must attend them. Learn more at durhamiteam.org/dear",
+                "spa": "Se tomar\u00e1 m\u00ednimo 2 meses para completar tu aplicaci\u00f3n. Si tienes citas de corte tienes que presentarte. Para mas informacion visita durhamiteam.org/dear"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            },
+            {
+              "type": "add_group",
+              "uuid": "35e23d05-0876-4294-83c6-65cdd81ad3f4",
+              "groups": [
+                {
+                  "uuid": "f1dff7ff-8048-4b49-9f9e-0395a393ae3d",
+                  "name": "Submitted"
+                }
+              ]
+            }
+          ],
+          "exit_uuid": "3ae6c2ba-99f6-432a-a069-06f2b13d32b4"
+        },
+        {
+          "uuid": "e350d3be-2eb4-4401-9774-7062283f0cfe",
+          "x": 731,
+          "y": 642,
+          "destination": "b847877d-1fca-4376-ba82-2af50a1f4b9a",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "163fcfc5-69f8-42b0-9c11-d777ac34fbe7",
+              "msg": {
+                "base": "This isn't a valid response. Was your suspension related to alcohol or drugs? Enter Y for Yes or N for No",
+                "spa": "Esta no es una respuesta v\u00e1lida. \u00bfTu suspensi\u00f3n es a causa de drogas o alcohol? Responde S para S\u00ed o N para No"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "2e89c3d3-7dba-4a17-a25b-14b328f09f37"
+        },
+        {
+          "uuid": "7626f605-405d-4073-80ee-3e343afac022",
+          "x": 653,
+          "y": 977,
+          "destination": "89e8a0c3-4984-4e24-afd4-0f418e8deaff",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "6696f708-1220-4f05-b82b-a8123604d333",
+              "msg": {
+                "base": "This isn't a valid response. Was your traffic offense in Durham County? Enter Y for Yes or N for No",
+                "spa": "Esta no es una respuesta v\u00e1lida. \u00bfTu ofensa de tr\u00e1fico fue en el condado de Durham? Responde S para S\u00ed o N para No"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "95dbbc8f-0c9c-439e-8526-6a6ac81ffbba"
+        },
+        {
+          "uuid": "d4ca98a8-a88a-4ca0-8b6b-3f4c5589136c",
+          "x": 724,
+          "y": 1336,
+          "destination": "e926ee4d-90c0-4367-95d7-14caf6e24505",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "20a9ac62-5a63-467e-b02d-72adb79abdbc",
+              "msg": {
+                "base": "This isn't a valid response. Was your traffic offense more than 12 months ago? Enter Y for Yes or N for No",
+                "spa": "Esta no es una respuesta v\u00e1lida.  \u00bfTu ofensa de tr\u00e1fico fue hace m\u00e1s de 12 meses? Responde S para S\u00ed o N para No"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "36342937-9db5-4428-baeb-bbdd9ed1c1fc"
+        },
+        {
+          "uuid": "46c3ba63-8b72-4674-8ff7-3e3545b6adf6",
+          "x": 621,
+          "y": 1626,
+          "destination": "15285f08-bac6-4b4d-a976-a9dac7f14796",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "a7af4bc7-8156-4988-9efd-40e9c6e2c684",
+              "msg": {
+                "base": "This isn't a valid response. What is your date of birth in MM/DD/YYYY format?",
+                "spa": "Esta no es una respuesta v\u00e1lida. \u00bfCual es tu fecha de nacimiento en Mes/Dia/A\u00f1o? Por ejemplo 05/27/1986."
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "6a72df56-c16f-4584-9e8c-549309dd20f9"
+        },
+        {
+          "uuid": "d376d039-b722-4d2b-9edf-19fb984296a8",
+          "x": 509,
+          "y": 2300,
+          "destination": "a54334a1-254a-4e9b-b434-6ab3edf42533",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "87856388-16f9-4519-ae59-d7894ff99063",
+              "msg": {
+                "base": "This isn't a valid response. If you know your North Carolina license number, reply with the number. Otherwise, reply N/A.",
+                "spa": "Esta no es una respuesta v\u00e1lida. Si sabes tu n\u00famero de licencia de manejar del Norte de Carolina, responde con ese n\u00famero. Si no lo tienes, responde con N/A"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "6f41915a-942e-452c-bcf1-b171e73c8e85"
+        },
+        {
+          "uuid": "4418d581-637c-4330-b52e-f09820421d55",
+          "x": 500,
+          "y": 2046,
+          "destination": "1e12457c-6b3c-4ad4-b496-d2fe7c5f4cf7",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "2b66a049-7d1a-4b37-ba3b-de7aa7f62fb0",
+              "msg": {
+                "base": "This isn't a valid response. What is your full name? Please include your first, middle, and last name as it would appear on any court records.",
+                "spa": "Esta no es una respuesta v\u00e1lida. \u00bfCual es tu nombre completo? Por favor incluye tu primer nombre, segundo nombre y apellido tal y como aparecen en los registros de la corte."
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "efe0a9fe-1761-4a12-ad83-81dab615bede"
+        },
+        {
+          "uuid": "e5ca2b10-b290-4af5-93ac-1027171355f0",
+          "x": 381,
+          "y": 452,
+          "destination": "2cfb48ae-b026-488a-b6fc-dad9ad792709",
+          "actions": [
+            {
+              "type": "lang",
+              "uuid": "196cc682-9113-4e67-a479-66d87ea08906",
+              "lang": "spa",
+              "name": "Spanish"
+            }
+          ],
+          "exit_uuid": "a2ad6e26-5bdd-4406-a927-121289a2bbb1"
+        },
+        {
+          "uuid": "2cfb48ae-b026-488a-b6fc-dad9ad792709",
+          "x": 132,
+          "y": 434,
+          "destination": "de8cabcc-9986-4ca6-83c5-664f516a6743",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "ab6963ae-259c-4c6c-8ef9-5ec98dcc2a29",
+              "msg": {
+                "base": "Was your suspension related to alcohol or drugs? Enter Y for Yes or N for No",
+                "spa": "\u00bfTu suspensi\u00f3n es a causa de drogas o alcohol? Responde S para S\u00ed o N para No"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "7d1196ce-96f1-4eed-be92-15d8b238474f"
+        },
+        {
+          "uuid": "0c3c9bdb-0107-4882-8fcc-10513f918462",
+          "x": 630,
+          "y": 102,
+          "destination": "d3f47a8d-5362-4af6-ac21-04c619c474b7",
+          "actions": [
+            {
+              "type": "reply",
+              "uuid": "462f4707-c521-4b35-87be-86ce5fd3ccc2",
+              "msg": {
+                "base": "This isn't a valid response. Text En for English or Es for Spanish",
+                "spa": "This isn't a valid response. Text En for English or Es for Spanish"
+              },
+              "media": {},
+              "quick_replies": [],
+              "send_all": false
+            }
+          ],
+          "exit_uuid": "78dfa27f-0e77-4a4c-92bf-69f9bc457a70"
+        },
+        {
+          "uuid": "2740909c-3428-4cec-8d91-2b2ab32fe023",
+          "x": 76,
+          "y": 309,
+          "destination": "2cfb48ae-b026-488a-b6fc-dad9ad792709",
+          "actions": [
+            {
+              "type": "lang",
+              "uuid": "1aa6709b-5a7b-4c49-9ad0-8f43800c00f3",
+              "lang": "eng",
+              "name": "English"
+            }
+          ],
+          "exit_uuid": "5f8a454a-1f97-4754-81c1-f1e22abad9f0"
+        }
+      ],
+      "rule_sets": [
+        {
+          "uuid": "de8cabcc-9986-4ca6-83c5-664f516a6743",
+          "x": 340,
+          "y": 621,
+          "label": "alcohol",
+          "rules": [
+            {
+              "uuid": "fb3ef4b8-2cd7-4bad-82eb-032e3ad09e5b",
+              "category": {
+                "base": "Y",
+                "spa": "Y"
+              },
+              "destination": "685d8267-5fa0-4a36-88a4-ab2fe8232d2d",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "Y Yes",
+                  "spa": "S Si"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "08a3d70b-6b69-4aa1-977f-3aaf03ff9013",
+              "category": {
+                "base": "N",
+                "spa": "N"
+              },
+              "destination": "0455d1fa-ddbd-499b-9db4-8c83824ea854",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "N No",
+                  "spa": "N No"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "69b31c44-5d03-4ab7-b749-64aa3897eedb",
+              "category": {
+                "base": "Other",
+                "spa": "Other"
+              },
+              "destination": "e350d3be-2eb4-4401-9774-7062283f0cfe",
+              "destination_type": "A",
+              "test": {
+                "type": "true"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "wait_message",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {}
+        },
+        {
+          "uuid": "360d0896-280a-44ac-b25d-21fbbabc9563",
+          "x": 269,
+          "y": 909,
+          "label": "county",
+          "rules": [
+            {
+              "uuid": "bb8bb57e-8282-4bec-97a6-46269ff682cf",
+              "category": {
+                "base": "N",
+                "spa": "N"
+              },
+              "destination": "65aefb61-e91d-4fd3-b993-a689e2636462",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "N No",
+                  "spa": "N No"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "982b128d-59f9-4fc1-98b4-153e1b4e6af8",
+              "category": {
+                "base": "Y",
+                "spa": "Y"
+              },
+              "destination": "3f202080-01d3-4c59-a363-2b06d3e95487",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "Y Yes",
+                  "spa": "S Si"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "0a2018ff-ba94-439c-8c74-f4d27f5e7c62",
+              "category": {
+                "base": "Other",
+                "spa": "Other"
+              },
+              "destination": "7626f605-405d-4073-80ee-3e343afac022",
+              "destination_type": "A",
+              "test": {
+                "type": "true"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "wait_message",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {}
+        },
+        {
+          "uuid": "8e0272ce-ef3b-4467-92eb-ebfdffd1042a",
+          "x": 304,
+          "y": 1261,
+          "label": "time",
+          "rules": [
+            {
+              "uuid": "87558b67-8331-4848-b861-61fb7a7f2928",
+              "category": {
+                "base": "N",
+                "spa": "N"
+              },
+              "destination": "077aa21f-c10e-4b95-acdb-bf1a6d86f551",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "N No",
+                  "spa": "N No"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "c9ebc776-6707-4eed-84ab-ea2be484af47",
+              "category": {
+                "base": "Y",
+                "spa": "Y"
+              },
+              "destination": "86234be6-214d-4930-b87e-9f79b881eab8",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "Y Yes",
+                  "spa": "S Si"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "0dd2220e-ecef-439a-aab6-9096009c6a93",
+              "category": {
+                "base": "Other",
+                "spa": "Other"
+              },
+              "destination": "d4ca98a8-a88a-4ca0-8b6b-3f4c5589136c",
+              "destination_type": "A",
+              "test": {
+                "type": "true"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "wait_message",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {}
+        },
+        {
+          "uuid": "89300779-3ccc-44da-832e-9e1c4625b98c",
+          "x": 324,
+          "y": 1541,
+          "label": "dob",
+          "rules": [
+            {
+              "uuid": "492f5655-284f-4319-9f61-277c82c9a560",
+              "category": {
+                "base": "is dob",
+                "spa": "is dob"
+              },
+              "destination": "79f7baaf-b426-430a-b9d7-fa8388e6da36",
+              "destination_type": "A",
+              "test": {
+                "type": "regex",
+                "test": {
+                  "base": "^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(19|20)\\d\\d$",
+                  "spa": "^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(19|20)\\d\\d$"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "3cea0d76-f044-4dab-8159-1eb6f32ef5f8",
+              "category": {
+                "base": "Other",
+                "spa": "Other"
+              },
+              "destination": "46c3ba63-8b72-4674-8ff7-3e3545b6adf6",
+              "destination_type": "A",
+              "test": {
+                "type": "true"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "wait_message",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {}
+        },
+        {
+          "uuid": "1aa47c89-5642-45e5-9527-3cc1246b2fbf",
+          "x": 175,
+          "y": 1936,
+          "label": "name",
+          "rules": [
+            {
+              "uuid": "1329cf3c-f920-4207-87eb-1caf715f00cd",
+              "category": {
+                "base": "is name",
+                "spa": "is name"
+              },
+              "destination": "43a970f4-5617-4550-a090-e4720dc4d8a7",
+              "destination_type": "A",
+              "test": {
+                "type": "regex",
+                "test": {
+                  "base": "^(?:[\\w\u00c0-\u00ff-.']+([\\w\\s\u00c0-\u00ff-.']+)*)$",
+                  "spa": "^(?:[\\w\u00c0-\u00ff-.']+([\\w\\s\u00c0-\u00ff-.']+)*)$"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "1f3aca56-3e44-4783-98ef-cfc5050e2fe4",
+              "category": {
+                "base": "Other",
+                "spa": "Other"
+              },
+              "destination": "4418d581-637c-4330-b52e-f09820421d55",
+              "destination_type": "A",
+              "test": {
+                "type": "true"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "wait_message",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {}
+        },
+        {
+          "uuid": "a54334a1-254a-4e9b-b434-6ab3edf42533",
+          "x": 128,
+          "y": 2321,
+          "label": "license",
+          "rules": [
+            {
+              "uuid": "2e24da2c-1576-406a-bc70-b605fb5924c8",
+              "category": {
+                "base": "is license number",
+                "spa": "is license number"
+              },
+              "destination": "a9ac5178-68ff-4538-aaad-30031d8f8fc5",
+              "destination_type": "A",
+              "test": {
+                "type": "regex",
+                "test": {
+                  "base": "^(?:(\\d{4})?\\d{8})$",
+                  "spa": "^(?:(\\d{4})?\\d{8})$"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "f53e254b-7f57-4bfe-8520-75f07b743be4",
+              "category": {
+                "base": "Unknown",
+                "spa": "Unknown"
+              },
+              "destination": "d593d30e-4426-4c4e-85f4-068fe784bdca",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "N/A, NA",
+                  "spa": "N/A"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "38b812cc-00c3-4cb3-840f-213bcd113640",
+              "category": {
+                "base": "Other",
+                "spa": "Other"
+              },
+              "destination": "d376d039-b722-4d2b-9edf-19fb984296a8",
+              "destination_type": "A",
+              "test": {
+                "type": "true"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "wait_message",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {}
+        },
+        {
+          "uuid": "b95eae20-a483-4284-87f7-9e285f8fc9c7",
+          "x": 47,
+          "y": 2957,
+          "label": "Response 7",
+          "rules": [
+            {
+              "uuid": "c2d662cc-7029-4607-87e2-a58560e6728d",
+              "category": {
+                "base": "Success",
+                "spa": "Success"
+              },
+              "destination": null,
+              "destination_type": null,
+              "test": {
+                "type": "webhook_status",
+                "status": "success"
+              },
+              "label": null
+            },
+            {
+              "uuid": "1cbbec6a-abf3-4a43-b855-6da54090c2c4",
+              "category": {
+                "base": "Failure",
+                "spa": "Failure"
+              },
+              "destination": null,
+              "destination_type": null,
+              "test": {
+                "type": "webhook_status",
+                "status": "failure"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "resthook",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {
+            "resthook": "apply"
+          }
+        },
+        {
+          "uuid": "da113944-c63b-4355-99e4-261d7e3dfac9",
+          "x": 295,
+          "y": 2956,
+          "label": "Response 8",
+          "rules": [
+            {
+              "uuid": "262a3b6c-73e1-40fa-a1e1-27d5a23b3f22",
+              "category": {
+                "base": "Success",
+                "spa": "Success"
+              },
+              "destination": null,
+              "destination_type": null,
+              "test": {
+                "type": "webhook_status",
+                "status": "success"
+              },
+              "label": null
+            },
+            {
+              "uuid": "fee3530b-4a01-4c9e-a599-47a83bab5399",
+              "category": {
+                "base": "Failure",
+                "spa": "Failure"
+              },
+              "destination": null,
+              "destination_type": null,
+              "test": {
+                "type": "webhook_status",
+                "status": "failure"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "resthook",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {
+            "resthook": "apply"
+          }
+        },
+        {
+          "uuid": "b847877d-1fca-4376-ba82-2af50a1f4b9a",
+          "x": 718,
+          "y": 868,
+          "label": "alcohol",
+          "rules": [
+            {
+              "uuid": "b08798d7-1929-4d18-87cd-54e25c71b444",
+              "category": {
+                "base": "Success",
+                "spa": "Success"
+              },
+              "destination": "de8cabcc-9986-4ca6-83c5-664f516a6743",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "success"
+              },
+              "label": null
+            },
+            {
+              "uuid": "97d397ea-b7e1-4587-ba91-3fb3624a24a9",
+              "category": {
+                "base": "Failure",
+                "spa": "Failure"
+              },
+              "destination": "de8cabcc-9986-4ca6-83c5-664f516a6743",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "failure"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "resthook",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {
+            "resthook": "screwup"
+          }
+        },
+        {
+          "uuid": "1e12457c-6b3c-4ad4-b496-d2fe7c5f4cf7",
+          "x": 487,
+          "y": 1912,
+          "label": "name",
+          "rules": [
+            {
+              "uuid": "cd4efbf3-67c9-44cc-93b4-4ab77f52752c",
+              "category": {
+                "base": "Success",
+                "spa": "Success"
+              },
+              "destination": "1aa47c89-5642-45e5-9527-3cc1246b2fbf",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "success"
+              },
+              "label": null
+            },
+            {
+              "uuid": "7b241581-6789-4314-94fb-3001f2d1b68c",
+              "category": {
+                "base": "Failure",
+                "spa": "Failure"
+              },
+              "destination": "1aa47c89-5642-45e5-9527-3cc1246b2fbf",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "failure"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "resthook",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {
+            "resthook": "screwup"
+          }
+        },
+        {
+          "uuid": "d3f47a8d-5362-4af6-ac21-04c619c474b7",
+          "x": 608,
+          "y": 370,
+          "label": "Language",
+          "rules": [
+            {
+              "uuid": "47db1d6c-eead-44e2-9d17-7e7de8026508",
+              "category": {
+                "base": "English",
+                "spa": "English"
+              },
+              "destination": "2740909c-3428-4cec-8d91-2b2ab32fe023",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "En",
+                  "spa": "En"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "d5eb5c2a-e9d5-4d1b-9a69-9f10d3c24522",
+              "category": {
+                "base": "Spanish",
+                "spa": "Spanish"
+              },
+              "destination": "e5ca2b10-b290-4af5-93ac-1027171355f0",
+              "destination_type": "A",
+              "test": {
+                "type": "contains_any",
+                "test": {
+                  "base": "Es",
+                  "spa": "Es"
+                }
+              },
+              "label": null
+            },
+            {
+              "uuid": "840dd64a-1338-4831-b7d8-f84a219e01d7",
+              "category": {
+                "base": "Other",
+                "spa": "Other"
+              },
+              "destination": "0c3c9bdb-0107-4882-8fcc-10513f918462",
+              "destination_type": "A",
+              "test": {
+                "type": "true"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "wait_message",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {}
+        },
+        {
+          "uuid": "89e8a0c3-4984-4e24-afd4-0f418e8deaff",
+          "x": 657,
+          "y": 1212,
+          "label": "Log county messup",
+          "rules": [
+            {
+              "uuid": "708227f0-8e4d-4a57-8de6-e2ebca4403a6",
+              "category": {
+                "base": "Success"
+              },
+              "destination": "360d0896-280a-44ac-b25d-21fbbabc9563",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "success"
+              },
+              "label": null
+            },
+            {
+              "uuid": "ce41905e-777b-419b-9422-9f92dce25b4e",
+              "category": {
+                "base": "Failure"
+              },
+              "destination": "360d0896-280a-44ac-b25d-21fbbabc9563",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "failure"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "resthook",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {
+            "resthook": "screwup"
+          }
+        },
+        {
+          "uuid": "e926ee4d-90c0-4367-95d7-14caf6e24505",
+          "x": 709,
+          "y": 1504,
+          "label": "Response 13",
+          "rules": [
+            {
+              "uuid": "2d4f283b-f17e-4d29-b93b-7762a0ba15b1",
+              "category": {
+                "base": "Success"
+              },
+              "destination": "8e0272ce-ef3b-4467-92eb-ebfdffd1042a",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "success"
+              },
+              "label": null
+            },
+            {
+              "uuid": "00aaf4c5-b43e-4855-98f8-e1bbbea1b878",
+              "category": {
+                "base": "Failure"
+              },
+              "destination": "8e0272ce-ef3b-4467-92eb-ebfdffd1042a",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "failure"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "resthook",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {
+            "resthook": "screwup"
+          }
+        },
+        {
+          "uuid": "15285f08-bac6-4b4d-a976-a9dac7f14796",
+          "x": 629,
+          "y": 1793,
+          "label": "Response 14",
+          "rules": [
+            {
+              "uuid": "aeb9f9b1-6343-4942-8cf9-855ad0cc7418",
+              "category": {
+                "base": "Success"
+              },
+              "destination": "89300779-3ccc-44da-832e-9e1c4625b98c",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "success"
+              },
+              "label": null
+            },
+            {
+              "uuid": "f576df33-9bb5-4ede-80df-52e76697f2a2",
+              "category": {
+                "base": "Failure"
+              },
+              "destination": "89300779-3ccc-44da-832e-9e1c4625b98c",
+              "destination_type": "R",
+              "test": {
+                "type": "webhook_status",
+                "status": "failure"
+              },
+              "label": null
+            }
+          ],
+          "finished_key": null,
+          "ruleset_type": "resthook",
+          "response_type": "",
+          "operand": "@step.value",
+          "config": {
+            "resthook": "screwup"
+          }
+        }
+      ],
+      "base_language": "base",
+      "flow_type": "M",
+      "version": "11.4",
+      "metadata": {
+        "name": "Amnesty",
+        "saved_on": "2018-09-18T22:46:44.987919Z",
+        "revision": 678,
+        "uuid": "25c1283c-d757-4ef1-8ada-609fbd4f2ad7",
+        "expires": 10080,
+        "notes": []
+      }
+    }
+  ],
+  "campaigns": [],
+  "triggers": [
+    {
+      "trigger_type": "C",
+      "keyword": null,
+      "flow": {
+        "uuid": "25c1283c-d757-4ef1-8ada-609fbd4f2ad7",
+        "name": "Amnesty"
+      },
+      "groups": [],
+      "channel": null
+    },
+    {
+      "trigger_type": "K",
+      "keyword": "reset",
+      "flow": {
+        "uuid": "25c1283c-d757-4ef1-8ada-609fbd4f2ad7",
+        "name": "Amnesty"
+      },
+      "groups": [],
+      "channel": null
+    }
+  ]
+}
